@@ -26,10 +26,10 @@ public class Search {
         time = finishTime - startTime;
         if(found_or_not)
         {
-            System.out.println("Number is found, time is " + time + " ns");
+            System.out.println("Perebor -> Number is found, time is " + time + " ns");
         }
         else{
-            System.out.println("Number isn`t found, time is " + time + " ns");
+            System.out.println("Perebor -> Number isn`t found, time is " + time + " ns");
         }
     }
 
@@ -43,10 +43,10 @@ public class Search {
         time = finishTime - startTime;
         if(found_or_not >= 0)
         {
-            System.out.println("Number is found, time is " + time + " ns");
+            System.out.println("Binary search -> Number is found, time is " + time + " ns");
         }
         else{
-            System.out.println("Number isn`t found, time is " + time + " ns");
+            System.out.println("Binary search -> Number isn`t found, time is " + time + " ns");
         }
     }
 
@@ -59,10 +59,10 @@ public class Search {
         time = finishTime - startTime;
         if(found_or_not)
         {
-            System.out.println("Number is found, time is " + time + " ns");
+            System.out.println("Search in HashSet -> Number is found, time is " + time + " ns");
         }
         else{
-            System.out.println("Number isn`t found, time is " + time + " ns");
+            System.out.println("Search in HashSet -> Number isn`t found, time is " + time + " ns");
         }
     }
 
@@ -75,10 +75,10 @@ public class Search {
         time = finishTime - startTime;
         if(found_or_not)
         {
-            System.out.println("Number is found, time is " + time + " ns");
+            System.out.println("Search in TreeSet -> Number is found, time is " + time + " ns");
         }
         else{
-            System.out.println("Number isn`t found, time is " + time + " ns");
+            System.out.println("Search in TreeSet -> Number isn`t found, time is " + time + " ns");
         }
     }
 }
